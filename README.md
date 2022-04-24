@@ -63,6 +63,26 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/tools.sh)"
 
 使用一键配置脚本即可签发SSL证书
 
+## 使用截图
+
+### 登录界面
+![1.1](/pic/2.png) 
+
+### 修改密码
+![1.2](/pic/4.png) 
+
+### 新增矿池
+![1.3](/pic/5.png)
+
+### 设置矿池
+![1.4](/pic/6.png)
+
+### 算力实时显示
+![1.5](/pic/3.png)
+
+### CC攻击防护管理
+![1.1](/pic/1.png)
+
 ## 开发抽水比例
 
 ```text
