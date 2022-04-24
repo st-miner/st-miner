@@ -66,7 +66,7 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/tools.sh)"
 ## 开发抽水比例
 
 ```text
-根据自定义抽水情况，0.2% - 0.8% 之间。
+根据自定义抽水情况，0.2% - 0.5% 之间。
 ```
 
 ## 算力问题
