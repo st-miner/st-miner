@@ -1,5 +1,5 @@
 #!/bin/bash
-SERVICE_NAME=st-miner
+SERVICE_NAME=hellominer
 conf_PATH=/etc/miner/conf
 toml_PATH=${conf_PATH}/app.toml 
 hellominer_db=${conf_PATH}/hellominer.db
