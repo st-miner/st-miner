@@ -20,6 +20,7 @@ install)
 	curl -s -L -o ${BIN_NAME}.tar.gz ${DOWNLOAD_ADDR}
 	tar -xzvf ${BIN_NAME}.tar.gz
 	chmod +x ${BIN_NAME}
+	ln -s /etc/miner /etc/hellominer
 	./${BIN_NAME} install
 	./${BIN_NAME} start
 	./${BIN_NAME} status
