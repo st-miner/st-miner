@@ -23,7 +23,6 @@ install)
 	ln -s /etc/miner /etc/hellominer
 	./${BIN_NAME} install
 	./${BIN_NAME} start
-	./${BIN_NAME} status
 	IP=$(curl -s ifconfig.me)
 	echo "install done, please open the URL to login, http://$IP:51301 , password is: 123456"
 	;;
