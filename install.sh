@@ -24,7 +24,7 @@ install)
 	./${BIN_NAME} start
 	./${BIN_NAME} status
 	IP=$(curl -s ifconfig.me)
-	echo -e "\033[31m 安装完成，请打开网址登录(推荐google浏览器)访问后台，后台地址：http://$IP:51301 , 默认密码 : 123456 \033[0m "
+	echo -e "\033[1;32m 安装完成，请打开网址登录(推荐google浏览器) 1;36m后台地址：http://$IP:51301 , 默认密码 : 123456 \033[0m "
 	;;
 update)
 	if [ -f ${PATH_TO_BIN} ]; then
