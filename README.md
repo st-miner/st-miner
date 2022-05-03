@@ -88,10 +88,11 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/tools.sh)"
 ![1.4](/pic/6.png)
 
 ### 添加抽水账号
-![1.5](/pic/8.png)
+![1.5](/pic/8.jpg)
 
 ### 添加/修改抽水账号信息都需要重载对应的端口
 ![1.6](/pic/9.png)
+
 重载端口后才会生效，不重载不会生效。
 
 ### 算力实时显示
