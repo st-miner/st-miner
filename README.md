@@ -87,14 +87,21 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/tools.sh)"
 ### 设置矿池
 ![1.4](/pic/6.png)
 
+### 添加抽水账号
+![1.5](/pic/8.png)
+
+### 添加/修改抽水账号信息都需要重载对应的端口
+![1.6](/pic/9.png)
+重载端口后才会生效，不重载不会生效。
+
 ### 算力实时显示
-![1.5](/pic/3.png)
+![1.7](/pic/3.png)
 
 ### CC攻击防护管理
-![1.6](/pic/1.png)
+![1.8](/pic/1.png)
 
 ### 企鹅群
-![1.7](/pic/xct.png)
+![1.9](/pic/xct.png)
 
 ### 视频教程 Youtube
 https://youtu.be/VZhvQlV-mWY
