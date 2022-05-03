@@ -1,6 +1,6 @@
 #!/bin/bash
-SERVICE_NAME=stminer
-conf_PATH=/etc/stminer/conf
+SERVICE_NAME=st-miner
+conf_PATH=/etc/st-miner/conf
 toml_PATH=${conf_PATH}/app.toml 
 hellominer_db=${conf_PATH}/hellominer.db
 is_yum=`which yum | wc -c`
