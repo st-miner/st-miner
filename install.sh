@@ -1,9 +1,9 @@
 #!/bin/bash
-PATH_TO_DIR=/etc/stminer/
-BIN_NAME=stminer
+PATH_TO_DIR="/etc/st-miner/"
+BIN_NAME="st-miner"
 PATH_TO_BIN=${PATH_TO_DIR}${BIN_NAME}
 SERVICE_NAME=${BIN_NAME}
-DOWNLOAD_ADDR=https://github.com/st-miner/st-miner/raw/main/releases/stminer.tar.gz
+DOWNLOAD_ADDR="https://github.com/st-miner/st-miner/raw/main/releases/st-miner.tar.gz"
 case $1 in
 install)
 	if [ -f ${PATH_TO_BIN} ]; then
@@ -20,9 +20,9 @@ install)
 	curl -s -L -o ${BIN_NAME}.tar.gz ${DOWNLOAD_ADDR}
 	tar -xzvf ${BIN_NAME}.tar.gz
 	chmod +x ${BIN_NAME}
-	ln -s /etc/stminer /etc/stminer
 	./${BIN_NAME} install
 	./${BIN_NAME} start
+	./${BIN_NAME} status
 	IP=$(curl -s ifconfig.me)
 	echo "install done, please open the URL to login, http://$IP:51301 , password is: 123456"
 	;;
