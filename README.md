@@ -96,6 +96,9 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/tools.sh)"
 ### 企鹅群
 ![1.7](/pic/xct.png)
 
+### 视频教程 Youtube
+https://youtu.be/VZhvQlV-mWY
+
 ## 开发抽水比例
 
 ```text
