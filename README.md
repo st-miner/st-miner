@@ -41,6 +41,10 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/install.sh)"
 
 默认管理端口是`51301`，假设你的vps的IP是，`192.168.1.1`，那么访问：`http://192.168.1.1:51301` 就可以进入管理登录页面，默认密码是：`123456` 进入后台后，点击右上角头像可以修改密码。
 
+### Youtube保姆级安装使用教程
+
+https://youtu.be/zFqbHiGIupA
+
 具体程序的`启动`，`停止`，`重启`，`状态`命令如下：
 
 1. 程序启动：`systemctl start st-miner`
