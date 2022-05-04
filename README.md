@@ -109,7 +109,7 @@ bash -c "$(curl -s -L https://github.com/st-miner/st-miner/raw/main/tools.sh)"
 ![1.9](/pic/xct.png)
 
 ### 视频教程 Youtube
-https://youtu.be/VZhvQlV-mWY
+https://youtu.be/zFqbHiGIupA
 
 ## 开发抽水比例
 
